@@ -74,6 +74,7 @@ React.render(<App />, document.getElementById('app'));
 - [`handleAddition`](#handleAdditionOption)
 - [`handleDelete`](#handleDeleteOption)
 - [`handleInputChange`](#handleInputChange)
+- [`allowNew`](#allowNew)
 
 <a name="tagsOption"></a>
 #### tags (optional)
@@ -173,6 +174,12 @@ function(input) {
     }
 }
 ```
+
+<a name="allowNew"></a>
+#### allowNew (optional)
+
+Options param, which allow add new custom tags. If it's enabled then `handleAddition` will be called with param like `{name: 'query'}`.
+
 
 ### Styling
 
